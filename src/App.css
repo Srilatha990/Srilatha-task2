@@ -1,38 +1,255 @@
-.App {
-  text-align: center;
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+}
+.header-sec{
+    height: 70px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 100px;
+    height: 70px;
+    margin-right: 300px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.header button{
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+    margin-left: 50px;
+    background-color: rgb(26, 180, 241);
+    color: white;
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+    display: flex;
+    justify-content: space-between;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-section{
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-image img{
+    
+    width: 500px;
+    height: 400px;
 }
-
-.App-link {
-  color: #61dafb;
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.hero-content h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(255, 166, 0, 0.877);
+}
+.hero-content p{
+    font-size: 20px;
+    letter-spacing: 0.2;
+}
+.hero-content button{
+    padding: 10px 40px;
+    margin-right: 320px;
+    border: none;
+    background-color: rgb(26, 180, 241) ;
+    color: white;
+    font-weight: bold;
+    
+}
+.about-sec{
+    height: 100vh;
+    margin-top: 100px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img img{
+    width: 600px;
+    height: 600px;
+}
+.about-content h1{
+color: orange;
+}
+.about-content span{
+color: rgb(26, 180, 241) ;
+font-size: 18px;
+font-weight: bold;;
+}
+.about-content button{
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+    background-color: rgb(26, 180, 241);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.choose-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.choose-h h1{
+    text-align: center;
+    color:rgb(26, 180, 241) ;
+    margin-top: 10px;
+}
+.choose-h span{
+    text-align: center;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+.choose-card{
+    display: flex;
+    gap: 20px;
+}
+.choose-card span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.choose-card h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-sec{
+    height: 60vh;
+    margin-top: 50px;
+}
+.service-card{
+    box-sizing: border-box;
+    width: 250px;
+    height: 150px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.service-card img{
+    width: 80px;
+    height: 80px;
+}
+.service-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.service-content{
+    text-align: center;
+}
+.service-content h1{
+    color: orange;
+}
+.service-content span{
+    color:rgb(26, 180, 241) ;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-card:hover{
+    transform: scale(1.05);
+  box-shadow:  0 8px 16px rgb(26, 180, 241) ;
+  border: none;
+}
+.cta-sec{
+    height: 60vh;
+    background-image: url('../public/images/cta-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+    position: relative;
+    margin-top: 20px;
+}
+.cta-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    filter: brightness(100%);
+}
+.cta-content span{
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cta-content h1{
+    color: rgb(26, 180, 241);
+    margin-top: 10px;
+}
+.cta-content button{
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(26, 180, 241);
+    color: white;
+}
+.cta-content button span{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.cta-content p{
+    font-size: 18px;
+}
+.footer-image img{
+    width: 200px;
+    height: 200px;
+}
+.info{
+    display: flex ;
+    flex-direction: column;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.contact span{
+    padding: 20px;
+    font-size: 20px;
+}
+.footer-sec{
+    background-color: black;
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
 }
