@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Srilatha-task2/static/css/main.2251df12.css",
+    "main.js": "/Srilatha-task2/static/js/main.e16ed139.js",
+    "static/js/453.8c083022.chunk.js": "/Srilatha-task2/static/js/453.8c083022.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Srilatha-task2/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Srilatha-task2/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/cta-img.jpg": "/Srilatha-task2/static/media/cta-img.113c979f8d84b7ca7880.jpg",
+    "index.html": "/Srilatha-task2/index.html",
+    "main.2251df12.css.map": "/Srilatha-task2/static/css/main.2251df12.css.map",
+    "main.e16ed139.js.map": "/Srilatha-task2/static/js/main.e16ed139.js.map",
+    "453.8c083022.chunk.js.map": "/Srilatha-task2/static/js/453.8c083022.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2251df12.css",
+    "static/js/main.e16ed139.js"
+  ]
+}
